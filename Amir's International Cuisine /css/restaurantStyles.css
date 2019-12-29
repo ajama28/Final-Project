@@ -1,0 +1,156 @@
+
+
+/*Global Styles*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,500,600,700,800&display=swap');
+
+  body {
+    font-family: 'Roboto Slab', serif;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: ivory;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+    color: #2D2D2D;
+    font-size: 54px;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #2D2D2D;
+    font-weight: 500;
+    padding-bottom: 15px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+      /*Menu*/
+
+        nav a {
+          float: left;
+          padding: 20px 40px 20px 40px;
+          text-decoration: none !important;
+          color: #2D2D2D;
+          font-weight: 500;
+          font-size: 18px;
+          letter-spacing: 1px;
+          display: block;
+        }
+
+        nav a:hover {
+          color: #3D84E0;
+        }
+
+        nav a:active {
+          font-weight: 600;
+          color: #3D84E0;
+        }
+
+        .clear-float {
+          clear:both;
+        }
+
+      /*Menu Ends*/
+
+/*Global Styles Ends*/
+
+
+/*Home ------------------------->*/
+
+     .description {
+        /* height: 70vh; */
+        margin-bottom:50px;
+     }
+
+     .restaurant-image {
+       width: 400px;
+       height: 150px;
+       margin-bottom: 60px;
+     }
+
+     .about-header {
+       text-align: left;
+       padding-left: 180px;
+     }
+
+     .about-paragraph {
+       padding: 0 180px 0 180px;
+       text-align: left;
+       line-height: 1.8;
+       letter-spacing: 1px;
+     }
+
+/*Home Ends ------------------------->*/
+
+
+/*Menu Page ------------------------->*/
+
+.col-md-4 {
+  height: 40px;
+}
+
+.menu-items {
+  height:140vh;
+  margin-top: 45px;
+
+}
+
+.item-header {
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 60px;
+}
+
+.item-header-1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 0px;
+}
+
+.item-description {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0px 40px 0 40px;
+}
+
+.price{
+  font-size: 14px;
+}
+
+
+
+/*Menu Page Ends ------------------------->*/
+
+/*Contact Page ------------------------->*/
+
+    legend {
+      font-size: 16px;
+    }
+
+    .form {
+      height: 70vh;
+      padding-top: 45px;
+    }
+
+/*Contact Page Ends ------------------------->*/
+
+
+
+
+/*Footer Section*/
+
+      .footer {
+        background: #D0DEC6;
+        margin-top: 50px;
+        padding:10px;
+      }
+/*Footer Section Ends*/

@@ -1,0 +1,12 @@
+.table-bordered{
+    border: 1px solid;
+}
+
+.playButton{
+    margin-left: 118px;
+    margin-top: 19px;
+}
+
+#results{
+    display: none;
+}
